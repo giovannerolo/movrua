@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;400;600&family=EB+Garamond:ital@1&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, p, li {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+  background: #FFDE59;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}  
+
+/* MENU */
+
+.menu-bg {
+  background-color: #121010;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-logo {
+  display: block;
+}
+
+.menu-nav {
+  display: block;
+}
+
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-family: 'Cairo Play', cursive;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #FFDE59;
+  
+  padding: 10px;
+}
+
+.menu-nav a:hover {
+  color: blue;
+}
+
+/* INTRODUCAO */
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
